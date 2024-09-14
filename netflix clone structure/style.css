@@ -1,0 +1,79 @@
+body{
+    background-image: url(back\ of\ netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.login{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 35px;
+    border: none;
+}
+.container{
+    background: rgb(0, 0, 0, 0.5);
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px solid white;
+    box-shadow: 0 0 7px 5px rgb(0, 0, 0.5);
+}
+.container h1{
+    color: white;
+}
+.input-name{
+    display: block;
+    padding: 3px;
+}
+.input-name{
+    width: 100%;
+    position: relative;
+    margin: 20px auto;
+}
+.name{
+    width: 55%;
+    height: 30px;
+    padding: 8px 0 8px 40px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+button:hover{
+    transform: translateX(8px);
+}
+.check-button{
+    color: rgb(158, 154, 154);
+}
+span{
+    float: right;
+}
+ .check-button a {
+    color: white;
+}
+.pera1{
+    color: rgb(158, 154, 154);
+}
+.pera1 i {
+    color: blue;
+}
+.pera{
+    color: rgb(158, 154, 154);
+}
+@media only screen and (max-width:460px){
+    .login{
+        display: none;
+    }
+}
